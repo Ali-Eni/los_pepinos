@@ -1,7 +1,28 @@
+*{
+    font-family: system-ui;
+    color: white;
+    font-weight: 200;
+}
+
+
 h1{
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(32,121,9,1) 34%, rgba(0,212,255,1) 100%);
     color: white;
     height: 100px;
     text-align: center;
+    vertical-align: center;  
+    font-weight: 800;
+    font-size: 65px;
+}
+
+.ruban{
+    background-image: url(cucumber.jpg);
+    background-size: cover;
+    height: 700px;
+    border-radius: 25%;      
+}
+
+body{
+    background-color:darkseagreen
 }
